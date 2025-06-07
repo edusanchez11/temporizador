@@ -1,11 +1,11 @@
 import time
 
-def cronometro(func):
-    # Guardar el tiempo de inicio
+# cronometro interactivo que mide el tiempo transcurrido entre dos pulsaciones de ENTER
+
+def cronometro():
+    input("Presiona ENTER para iniciar el cronómetro...")
     inicio = time.time()
-    input("Presiona ENTER para detener el cronómetro")
-    # Calcular el tiempo transcurrido
+    input("Presiona ENTER para detener el cronómetro.")
     fin = time.time()
-    transcurrido = fin - inicio
-    # Mostrar el tiempo transcurrido
-    print(f"Duración del cronómetro: {transcurrido:.2f} segundos")
+    duracion = fin - inicio
+    print(f"Duración: {duracion:.2f} segundos")
