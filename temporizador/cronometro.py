@@ -1,7 +1,6 @@
 import time
 
 # cronometro interactivo que mide el tiempo transcurrido entre dos pulsaciones de ENTER
-
 def cronometro():
     input("Presiona ENTER para iniciar el cronómetro...")
     inicio = time.time()

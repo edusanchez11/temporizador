@@ -15,7 +15,6 @@ def main():
         segundos = int(input("Introduce el número de segundos para la cuenta atrás: "))
         cuenta_atras(segundos)
     elif opcion == "2":
-        input("Presiona ENTER para iniciar el cronómetro...")
         cronometro()
     else:
         print("Opción no válida")
