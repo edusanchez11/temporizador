@@ -9,7 +9,7 @@ Pequeña librería Python que permite ejecutar:
 Desde el directorio raíz del proyecto:
 
 ```bash
-pip install .
+pip install -e .
 ```
 
 ## 🚀 Uso
