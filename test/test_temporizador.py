@@ -7,3 +7,6 @@ from temporizador.cronometro import cronometro
 def test_cuenta_atras():
     cuenta_atras(1)
 
+# realizar una prueba de cronómetro
+def test_cronometro():
+    cronometro()
