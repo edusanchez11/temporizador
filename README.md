@@ -4,6 +4,9 @@ Pequeña librería Python que permite ejecutar:
 - Un **cronómetro** con inicio y parada manual
 - Una **cuenta atrás** en segundos
 
+## ¿Para qué sirve?
+Ideal para medir tiempos en experimentos, rutinas de estudio, cocina, etc.
+
 # Clonar Repositorio
 
 git clone https://github.com/edusanchez11/temporizador.git
