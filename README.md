@@ -8,7 +8,7 @@ Pequeña librería Python que permite ejecutar:
 
 git clone https://github.com/edusanchez11/temporizador.git
 
-cd repositorio
+cd temporizador
 
 ## 📦 Instalación
 
