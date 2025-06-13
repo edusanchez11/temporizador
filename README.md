@@ -4,6 +4,12 @@ Pequeña librería Python que permite ejecutar:
 - Un **cronómetro** con inicio y parada manual
 - Una **cuenta atrás** en segundos
 
+# Clonar Repositorio
+
+git clone https://github.com/edusanchez11/temporizador.git
+
+cd repositorio
+
 ## 📦 Instalación
 
 Desde el directorio raíz del proyecto:
