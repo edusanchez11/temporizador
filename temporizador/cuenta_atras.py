@@ -2,13 +2,17 @@
 
 import time
 
-'''
-Cuenta atrás interactiva que muestra el tiempo restante en formato MM:SS
-y finaliza al llegar a 0.
-cancelada con Ctrl+C.
-'''
-
 def cuenta_atras(segundos):
+
+    """
+    Realiza una cuenta atrás desde el número de segundos indicado.
+
+    Args:
+        segundos (int): Número de segundos para la cuenta atrás.
+
+    Returns:
+        bool: True si finaliza correctamente, False si se cancela.
+    """
     try:
         while segundos:
             mins, secs = divmod(segundos, 60)

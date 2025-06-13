@@ -1,6 +1,12 @@
 import builtins
 from temporizador.cronometro import cronometro
 
+'''
+Pruebas para la función cronometro del módulo temporizador.
+Realiza un cronómetro que mide el tiempo transcurrido entre dos pulsaciones de ENTER.
+El monkeypatch se usa para simular las pulsaciones de ENTER y evitar esperas reales.
+'''
+
 def test_cronometro(monkeypatch):
     # Simula dos pulsaciones de ENTER
     inputs = iter(['', ''])
